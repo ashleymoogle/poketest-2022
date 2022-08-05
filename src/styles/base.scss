@@ -1,0 +1,62 @@
+:root {
+  @apply text-base font-normal font-sans text-white opacity-90 bg-slate-800;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  @apply font-medium bg-indigo-500;
+  text-decoration: inherit;
+}
+a:hover {
+  @apply bg-indigo-600;
+}
+
+body {
+  @apply m-0 flex min-h-screen;
+  place-items: center;
+  min-width: 320px;
+}
+
+h1 {
+  @apply text-5xl;
+}
+
+button {
+  @apply rounded-lg border border-solid border-transparent text-base py-4 px-2 font-medium cursor-pointer bg-zinc-900;
+  transition: border-color 0.25s;
+}
+button:hover {
+  @apply bg-indigo-500;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+  @apply p-8;
+}
+
+#app {
+  @apply p-8 mx-auto my-0 text-center;
+  max-width: 1280px;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    @apply bg-white text-cyan-900;
+  }
+  a:hover {
+    @apply bg-indigo-400;
+  }
+  button {
+    @apply bg-slate-50;
+  }
+}
