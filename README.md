@@ -35,6 +35,7 @@ Here is a ***sample*** list of things that needs doing but ultimately it's your 
 
 - We need to fix the obvious bugs and errors
 - We want to get the pokemons from an api (https://pokeapi.co/), the first generation is what we want (151 first)
+- We want a new layout for the pokemon list
 - We want individual views for each pokemon with more data
 - We want to be able to switch between the shiny version and the normal versions sprites on each individual views
 - We want a view of the selected team with some basic infos on each selected team member

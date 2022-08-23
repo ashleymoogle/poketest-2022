@@ -13,7 +13,8 @@
     name: 'Team',
     setup() {
       const store = useTeamStore();
-      const { team, getTeam } = storeToRefs(store);
+      const { getTeam } = store;
+      const { team } = storeToRefs(store);
       return {
         getTeam,
         team,
