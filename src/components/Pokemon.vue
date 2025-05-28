@@ -40,7 +40,7 @@
   })
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
   .pkm-sprite {
     @apply m-auto;
   }

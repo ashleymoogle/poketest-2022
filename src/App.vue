@@ -11,7 +11,8 @@
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
+  @reference "tailwindcss";
   #app {
     @apply text-center font-sans;
     -webkit-font-smoothing: antialiased;
