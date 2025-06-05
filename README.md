@@ -1,33 +1,34 @@
 # Poketest 2022
 
-## Project setup
-```
-yarn install
-```
-or
-```
-npm install
-```
+## Requirements
 
-### Start dev server
+* VSCode Dev Container (Docker) -- ***Suggested***
+
+or
+* node 18+ with yarn 4.7.0
+
+## Project setup
+### With VSCode Dev Container -- ***Suggested***
+
+* `cmd` + `shift` + `p`. Search for : `Dev Containers: Reopen in Container`
+    * This should open the workspace in a new window / container running proper requirements.
+    * `yarn install` should have be ran.  
+
+### With Manual approach
+ * Make sure you have the proper node and yarn requirement.
+ * run `yarn install`
+
+## Start dev server
 ```
 yarn dev
 ```
-or
-```
-npm run dev
-```
 
-### Compiles and minifies for production
+## Compiles and minifies for production
 ```
 yarn build
 ```
-or
-```
-npm run build
-```
 
-### Context
+## Context
 A client wants us to make an app that displays pokemons and allows a user to add one to its team but unfortunately some things are not working properly or are really, really, bad!
 
 That's where you come in! I choose you (!!!) to fix these issues and implement what you think is best for the client need.
@@ -45,5 +46,8 @@ Here is a ***sample*** list of things that needs doing but ultimately it's your 
 
 ## Recommended IDE Setup
 
-- Node 18+
-- [VS Code](https://code.visualstudio.com/) + [Vue](https://marketplace.visualstudio.com/items?itemName=Vue.volar) + [Tailwind](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+- [VS Code](https://code.visualstudio.com/)
+- [Vue](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+- [Tailwind](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+
+These should be suggested directly when using VS Code.
