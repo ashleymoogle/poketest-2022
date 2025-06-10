@@ -12,7 +12,15 @@ or
 
 * `cmd` + `shift` + `p`. Search for : `Dev Containers: Reopen in Container`
     * This should open the workspace in a new window / container running proper requirements.
-    * `yarn install` should have be ran.  
+    * `yarn install` should have been run.
+* Open a new terminal (bash or zsh) in VSCode and run `yarn -v` to validate you are running on yarn `4.7.0`.
+  * If not, you need to execute the `.devcontainer/postCreateCommand.sh` again.
+  * If you are on Windows, make sure VSCode doesn't detect modification in every file of the project. If so, you need to revert the changes and run the command again.
+  * run `yarn install` again to make sure everything is up to date.
+
+#### Potential issues on windows
+* ERROR: failed to solve: error getting credentials
+  * in WSL, run `sudo chown -R $(id -u):$(id -g) $HOME/.docker` to fix the permissions on the `.docker` folder.
 
 ### With Manual approach
  * Make sure you have the proper node and yarn requirement.
